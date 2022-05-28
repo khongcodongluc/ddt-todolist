@@ -49,33 +49,33 @@ const TodolistStyle = styled.div`
         height: 16px;
     }
     .todoLabel{
-    margin-left: 10px;
-    flex: 1;
-  }
-  .todoBtn{
-    width: 90px;
-    height: 27px;
-    margin: 0 10px;
-  }
-  .detailBtn{
-    background-color: #00bcd4;
-  }
-  .todoDetail{
-    border-top: solid 1px black;
-    padding: 20px;
-  }
-  @media only screen and (max-width: 1200px) { 
-    .wrapperTodoist{
-        padding: 0 60px 80px 40px;   
+        margin-left: 10px;
+        flex: 1;
     }
     .todoBtn{
-        width: 60px;
+        width: 90px;
+        height: 27px;
+        margin: 0 10px;
     }
-    .bulkBtn{
-        width: 100px;
-        margin: 15px 20px;
+    .detailBtn{
+        background-color: #00bcd4;
     }
-  }
+    .todoDetail{
+        border-top: solid 1px black;
+        padding: 20px;
+    }
+    @media only screen and (max-width: 1200px) { 
+        .wrapperTodoist{
+            padding: 0 60px 80px 40px;   
+        }
+        .todoBtn{
+            width: 60px;
+        }
+        .bulkBtn{
+            width: 100px;
+            margin: 15px 20px;
+        }
+    }
   @media only screen and (max-width: 800px){  
     margin-left: 0;
     width: 100%;

@@ -22,6 +22,7 @@ export default function Todolist({ todolist, setTodolist }) {
   };
   const handleRemoveAllChecked = () => {
     const newTodolist = [];
+    // eslint-disable-next-line array-callback-return
     todolist.map((todo) => {
       if (arrIdChecked.findIndex((item) => item === todo.id) === -1) {
         newTodolist.push(todo);
@@ -32,7 +33,7 @@ export default function Todolist({ todolist, setTodolist }) {
     setArrIdChecked([]);
   };
 
-  // console.log("kaka", "dd".includes(searchInput))
+  console.log("kaka", arrIdChecked)
   
   return (
     <Styles.TodolistStyle>
